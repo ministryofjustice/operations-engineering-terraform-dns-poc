@@ -3616,10 +3616,10 @@ module "dsd_io_records" {
       records = ["arn:aws:iam::880656497252:role/zero-dev-5eb371e5-CrossAccountRole-1ZGFKHJ28WLH"]
     },
     {
-      name = "alertmanager"
+      name = "dummymanager"
       type: "A"
       ttl: 300
-      records: ["194.195.247.228"]
+      records: ["194.195.247.226"]
     }
   ]
 }
