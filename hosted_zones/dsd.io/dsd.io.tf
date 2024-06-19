@@ -246,14 +246,6 @@ module "dsd_io_records" {
       ]
     },
     {
-      name = "archipelago.dsd.io."
-      type = "CNAME"
-      ttl  = 300
-      records = [
-        "moj-archipelago.herokuapp.com."
-      ]
-    },
-    {
       name = "asylum-support.dsd.io."
       type = "A"
       alias = {
@@ -283,15 +275,6 @@ module "dsd_io_records" {
         "ns-199.awsdns-24.com.",
         "ns-1729.awsdns-24.co.uk."
       ]
-    },
-    {
-      name = "can-you-get-legal-aid.dsd.io."
-      type = "A"
-      alias = {
-        zone_id                = "Z1BKCTXD74EZPE"
-        name                   = "s3-website-eu-west-1.amazonaws.com."
-        evaluate_target_health = false
-      }
     },
     {
       name = "dev.carestandards.dsd.io."
@@ -398,14 +381,6 @@ module "dsd_io_records" {
       ]
     },
     {
-      name = "stack.prod.ci-prod.dsd.io."
-      type = "TXT"
-      ttl  = 60
-      records = [
-        "test"
-      ]
-    },
-    {
       name = "stack.94f88ee6.ci-staging.dsd.io."
       type = "TXT"
       ttl  = 60
@@ -479,94 +454,11 @@ module "dsd_io_records" {
       ]
     },
     {
-      name = "cla-backend-training.dsd.io."
-      type = "CNAME"
-      ttl  = 300
-      records = [
-        "backend-training.cla.dsd.io"
-      ]
-    },
-    {
-      name = "cla-backend.dsd.io."
-      type = "CNAME"
-      ttl  = 60
-      records = [
-        "backend-integration.cla.dsd.io"
-      ]
-    },
-    {
-      name = "cla-callmeback-training.dsd.io."
-      type = "CNAME"
-      ttl  = 300
-      records = [
-        "callmeback-training.cla.dsd.io"
-      ]
-    },
-    {
       name = "cla-docker.dsd.io."
       type = "A"
       ttl  = 300
       records = [
         "54.76.204.83"
-      ]
-    },
-    {
-      name = "cla-frontend-training.dsd.io."
-      type = "CNAME"
-      ttl  = 300
-      records = [
-        "frontend-training.cla.dsd.io"
-      ]
-    },
-    {
-      name = "cla-frontend.dsd.io."
-      type = "CNAME"
-      ttl  = 60
-      records = [
-        "frontend-integration.cla.dsd.io"
-      ]
-    },
-    {
-      name = "cla-public-training.dsd.io."
-      type = "CNAME"
-      ttl  = 300
-      records = [
-        "public-training.cla.dsd.io"
-      ]
-    },
-    {
-      name = "cla-public.dsd.io."
-      type = "CNAME"
-      ttl  = 60
-      records = [
-        "frontend-integration.cla.dsd.io"
-      ]
-    },
-    {
-      name = "cla-registry.dsd.io."
-      type = "A"
-      ttl  = 300
-      records = [
-        "52.16.69.126"
-      ]
-    },
-    {
-      name = "cla-training.dsd.io."
-      type = "CNAME"
-      ttl  = 300
-      records = [
-        "frontend-training.cla.dsd.io"
-      ]
-    },
-    {
-      name = "cla.dsd.io."
-      type = "NS"
-      ttl  = 300
-      records = [
-        "ns-659.awsdns-18.net",
-        "ns-1490.awsdns-58.org",
-        "ns-84.awsdns-10.com",
-        "ns-1853.awsdns-39.co.uk"
       ]
     },
     {
@@ -636,15 +528,6 @@ module "dsd_io_records" {
       records = [
         "ec2-54-229-204-208.eu-west-1.compute.amazonaws.com"
       ]
-    },
-    {
-      name = "courtfinder.dsd.io."
-      type = "A"
-      alias = {
-        zone_id                = "Z3NF1Z3NOM5OY2"
-        name                   = "dsd-apps-staging-lb-1696229752.eu-west-1.elb.amazonaws.com."
-        evaluate_target_health = false
-      }
     },
     {
       name = "_amazonses.courtfinder.dsd.io."
@@ -737,15 +620,6 @@ module "dsd_io_records" {
       records = [
         "52.19.133.172"
       ]
-    },
-    {
-      name = "dashboard.dsd.io."
-      type = "A"
-      alias = {
-        zone_id                = "Z3NF1Z3NOM5OY2"
-        name                   = "dsd-apps-staging-lb-1696229752.eu-west-1.elb.amazonaws.com."
-        evaluate_target_health = false
-      }
     },
     {
       name = "et.dashboard.dsd.io."
@@ -977,26 +851,6 @@ module "dsd_io_records" {
       ]
     },
     {
-      name = "dockerails.dsd.io."
-      type = "NS"
-      ttl  = 300
-      records = [
-        "ns-1163.awsdns-17.org.",
-        "ns-1590.awsdns-06.co.uk.",
-        "ns-842.awsdns-41.net.",
-        "ns-421.awsdns-52.com."
-      ]
-    },
-    {
-      name = "domis.dsd.io."
-      type = "A"
-      alias = {
-        zone_id                = "Z3NF1Z3NOM5OY2"
-        name                   = "dsd-apps-staging-lb-1696229752.eu-west-1.elb.amazonaws.com."
-        evaluate_target_health = false
-      }
-    },
-    {
       name = "familyassessment.dsd.dsd.io."
       type = "NS"
       ttl  = 300
@@ -1013,14 +867,6 @@ module "dsd_io_records" {
       ttl  = 300
       records = [
         "ec2-54-194-11-96.eu-west-1.compute.amazonaws.com."
-      ]
-    },
-    {
-      name = "e6211db0073064ade016ad4558767968.dsd.io."
-      type = "CNAME"
-      ttl  = 60
-      records = [
-        "www.digital.justice.gov.uk."
       ]
     },
     {
@@ -1046,14 +892,6 @@ module "dsd_io_records" {
       ttl  = 300
       records = [
         "_68ab398fca862a92da625f9b21effe6d.acm-validations.aws."
-      ]
-    },
-    {
-      name = "_48a95b0f6b9383b5850ca52940494730.www.elasticsearch.dsd.io."
-      type = "CNAME"
-      ttl  = 300
-      records = [
-        "_54ed4777b69c3ce620ad61078111bf87.acm-validations.aws."
       ]
     },
     {
@@ -1170,17 +1008,6 @@ module "dsd_io_records" {
       ]
     },
     {
-      name = "familymediatorsapi.dsd.io."
-      type = "NS"
-      ttl  = 300
-      records = [
-        "ns-794.awsdns-35.net.",
-        "ns-1106.awsdns-10.org.",
-        "ns-205.awsdns-25.com.",
-        "ns-2028.awsdns-61.co.uk."
-      ]
-    },
-    {
       name = "fatt.dsd.io."
       type = "CNAME"
       ttl  = 300
@@ -1214,15 +1041,6 @@ module "dsd_io_records" {
       records = [
         "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
       ]
-    },
-    {
-      name = "formfinder.dsd.io."
-      type = "A"
-      alias = {
-        zone_id                = "Z3NF1Z3NOM5OY2"
-        name                   = "dsd-apps-staging-lb-1696229752.eu-west-1.elb.amazonaws.com."
-        evaluate_target_health = false
-      }
     },
     {
       name = "ftiacdailycourtlist.dsd.io."
@@ -1412,14 +1230,6 @@ module "dsd_io_records" {
       ]
     },
     {
-      name = "*.int-prisonvisits.dsd.io."
-      type = "A"
-      ttl  = 30
-      records = [
-        "172.22.16.3"
-      ]
-    },
-    {
       name = "dev.internal-router.dsd.io."
       type = "CNAME"
       ttl  = 60
@@ -1536,17 +1346,6 @@ module "dsd_io_records" {
       ]
     },
     {
-      name = "justice-intranet.dsd.io."
-      type = "NS"
-      ttl  = 300
-      records = [
-        "ns-662.awsdns-18.net.",
-        "ns-60.awsdns-07.com.",
-        "ns-1926.awsdns-48.co.uk.",
-        "ns-1328.awsdns-38.org."
-      ]
-    },
-    {
       name = "opendata.justice.dsd.io."
       type = "A"
       alias = {
@@ -1554,14 +1353,6 @@ module "dsd_io_records" {
         name                   = "s3-website-eu-west-1.amazonaws.com."
         evaluate_target_health = false
       }
-    },
-    {
-      name = "kibana.dsd.io."
-      type = "CNAME"
-      ttl  = 300
-      records = [
-        "mon.dsd.io"
-      ]
     },
     {
       name = "stack.active.ks-deploy-dev.dsd.io."
@@ -1646,14 +1437,6 @@ module "dsd_io_records" {
     },
     {
       name = "local.dsd.io."
-      type = "A"
-      ttl  = 300
-      records = [
-        "127.0.0.1"
-      ]
-    },
-    {
-      name = "*.local.dsd.io."
       type = "A"
       ttl  = 300
       records = [
@@ -1750,46 +1533,6 @@ module "dsd_io_records" {
       ttl  = 300
       records = [
         "mediation-content.dsd.io.herokudns.com"
-      ]
-    },
-    {
-      name = "stack.active.moj-product-dashboard-deploy-staging.dsd.io."
-      type = "TXT"
-      ttl  = 60
-      records = [
-        "09162b05"
-      ]
-    },
-    {
-      name = "stack.active.moj-product-dashboard-prod.dsd.io."
-      type = "TXT"
-      ttl  = 60
-      records = [
-        "360e31aa"
-      ]
-    },
-    {
-      name = "stack.active.moj-product-dashboard-staging.dsd.io."
-      type = "TXT"
-      ttl  = 60
-      records = [
-        "dff14c94"
-      ]
-    },
-    {
-      name = "deployarn.active.prod.moj-product-dashboard.dsd.io."
-      type = "TXT"
-      ttl  = 60
-      records = [
-        "arn:aws:iam::880656497252:role/moj-product-dashboard-prod-360e31-CrossAccountRole-VPW3FE8SHPGI"
-      ]
-    },
-    {
-      name = "deployarn.active.staging.moj-product-dashboard.dsd.io."
-      type = "TXT"
-      ttl  = 60
-      records = [
-        "arn:aws:iam::880656497252:role/moj-product-dashboard-staging-dff-CrossAccountRole-OQVFUENUWWWG"
       ]
     },
     {
