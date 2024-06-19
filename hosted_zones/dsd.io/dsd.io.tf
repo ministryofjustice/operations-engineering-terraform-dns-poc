@@ -1981,6 +1981,1896 @@ module "dsd_io_records" {
       records = [
         "54.171.58.225"
       ]
+    },
+    {
+      name = "elasticsearch.opg-backoffice-qa.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.171.58.225"]
+    },
+    {
+      name = "opg-backoffice-review.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.171.58.225"]
+    },
+    {
+      name = "opg-backoffice-scratch.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.171.198.218"]
+    },
+    {
+      name = "opg-backoffice-snapshot.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.77.190.125"]
+    },
+    {
+      name = "opg-backoffice-training.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.72.135.104"]
+    },
+    {
+      name = "opg-backoffice-uat.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.77.107.133"]
+    },
+    {
+      name = "ddc.opg-backoffice-uat.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.77.107.33"]
+    },
+    {
+      name = "opg.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.73.63.103"]
+    },
+    {
+      name = "opg.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-75.awsdns-09.com", "ns-1970.awsdns-54.co.uk", "ns-660.awsdns-18.net", "ns-1379.awsdns-44.org"]
+    },
+    {
+      name = "_amazonses.opg.dsd.io."
+      type = "TXT"
+      ttl  = 1800
+      records = ["bWOD7mXHLafhehCkT+4DNLWwmQKx3Kxsn/nxubU3Tbg="]
+    },
+    {
+      name = "767topg7v6qyf3jlozwlxhu2zcqb4fuk._domainkey.opg.dsd.io."
+      type = "CNAME"
+      ttl  = 1800
+      records = ["767topg7v6qyf3jlozwlxhu2zcqb4fuk.dkim.amazonses.com"]
+    },
+    {
+      name = "fyibmzgtfcszcfbnwmcysnrb6hjeq23s._domainkey.opg.dsd.io."
+      type = "CNAME"
+      ttl  = 1800
+      records = ["fyibmzgtfcszcfbnwmcysnrb6hjeq23s.dkim.amazonses.com"]
+    },
+    {
+      name = "ydu5yan7zvss4dzjahepxa6tknn3wvy4._domainkey.opg.dsd.io."
+      type = "CNAME"
+      ttl  = 1800
+      records = ["ydu5yan7zvss4dzjahepxa6tknn3wvy4.dkim.amazonses.com"]
+    },
+    {
+      name = "ci.opg.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.76.9.27"]
+    },
+    {
+      name = "core-back.opg.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["jenkins.opg.dsd.io"]
+    },
+    {
+      name = "core-front.opg.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["jenkins.opg.dsd.io"]
+    },
+    {
+      name = "jenkins.opg.dsd.io."
+      type = "A"
+      ttl  = 60
+      records = ["54.229.206.68"]
+    },
+    {
+      name = "processmaker.opg.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["jenkins.opg.dsd.io"]
+    },
+    {
+      name = "sugar.opg.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["jenkins.opg.dsd.io"]
+    },
+    {
+      name = "swagger.opg.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["jenkins.opg.dsd.io"]
+    },
+    {
+      name = "opg_blog.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-11-96.eu-west-1.compute.amazonaws.com."]
+    },
+    {
+      name = "opgbackoffice.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.72.134.170"]
+    },
+    {
+      name = "osscsc.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["52.208.251.221"]
+    },
+    {
+      name = "platforms-training.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-733.awsdns-27.net", "ns-1767.awsdns-28.co.uk", "ns-1263.awsdns-29.org", "ns-358.awsdns-44.com"]
+    },
+    {
+      name = "platforms.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-1273.awsdns-31.org", "ns-382.awsdns-47.com", "ns-1988.awsdns-56.co.uk", "ns-918.awsdns-50.net"]
+    },
+    {
+      name = "pleaonline.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-1887.awsdns-43.co.uk.", "ns-1184.awsdns-20.org.", "ns-1018.awsdns-63.net.", "ns-111.awsdns-13.com."]
+    },
+    {
+      name = "stack.active.po-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["5ecff3b9"]
+    },
+    {
+      name = "stack.active.po-prod.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["553a27f6"]
+    },
+    {
+      name = "stack.active.po-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["77c25fb8"]
+    },
+    {
+      name = "deployarn.active.dev.po.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/po-dev-5ecff3b9-CrossAccountRole-1MVPOUUZ4DR04"]
+    },
+    {
+      name = "deployarn.active.prod.po.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/po-prod-553a27f6-CrossAccountRole-BCXALGQKKIWA"]
+    },
+    {
+      name = "deployarn.active.staging.po.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/po-staging-77c25fb8-CrossAccountRole-1NEVI39K1IUUG"]
+    },
+    {
+      name = "postcode_lookup.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-11-96.eu-west-1.compute.amazonaws.com."]
+    },
+    {
+      name = "ppo.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-11-96.eu-west-1.compute.amazonaws.com."]
+    },
+    {
+      name = "_amazonses.ppo.dsd.io."
+      type = "TXT"
+      ttl  = 1800
+      records = ["Vk3y1zBydDzo+p+ekAMBa6sU62jDgU1NY9/j1/AE+UE="]
+    },
+    {
+      name = "7vyvfadjerzncwgstpglhj6bwd5ekpbo._domainkey.ppo.dsd.io."
+      type = "CNAME"
+      ttl  = 1800
+      records = ["7vyvfadjerzncwgstpglhj6bwd5ekpbo.dkim.amazonses.com"]
+    },
+    {
+      name = "bzy75fcccsl3f4ii6ogijiguy2mu2hww._domainkey.ppo.dsd.io."
+      type = "CNAME"
+      ttl  = 1800
+      records = ["bzy75fcccsl3f4ii6ogijiguy2mu2hww.dkim.amazonses.com"]
+    },
+    {
+      name = "dutq2xwgepvjh4rjdqysfw73kmkpdyjz._domainkey.ppo.dsd.io."
+      type = "CNAME"
+      ttl  = 1800
+      records = ["dutq2xwgepvjh4rjdqysfw73kmkpdyjz.dkim.amazonses.com"]
+    },
+    {
+      name = "prad.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["52.19.133.172"]
+    },
+    {
+      name = "primaryhealthlistsdecisions.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-52-31-70-66.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "elasticsearch.prod-lpa.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.195"]
+    },
+    {
+      name = "kibana.prod-lpa.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.195"]
+    },
+    {
+      name = "monitoring.prod-lpa.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.195"]
+    },
+    {
+      name = "sentry.prod-lpa.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["monitoring.prod-lpa.dsd.io"]
+    },
+    {
+      name = "production29.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-24-225.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "providercalc.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["52.17.13.3"]
+    },
+    {
+      name = "pub.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-923.awsdns-51.net.", "ns-215.awsdns-26.com.", "ns-1375.awsdns-43.org.", "ns-1928.awsdns-49.co.uk."]
+    },
+    {
+      name = "stack.active.rabbitmq-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["459e3857"]
+    },
+    {
+      name = "deployarn.active.dev.rabbitmq.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/rabbitmq-dev-459e3857-CrossAccountRole-E9X4BS81JAFN"]
+    },
+    {
+      name = "repo.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z1BKCTXD74EZPE"
+        name                   = "s3-website-eu-west-1.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "repo0.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-103-46.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "repo1.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.194.52.110"]
+    },
+    {
+      name = "stack.active.riemann-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["42fe0ed2"]
+    },
+    {
+      name = "deployarn.active.dev.riemann.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/riemann-dev-42fe0ed2-CrossAccountRole-220SGN8K4YLH"]
+    },
+    {
+      name = "rosha.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z1BKCTXD74EZPE"
+        name                   = "s3-website-eu-west-1.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "rot-dev.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "rot-dev-9-elbrotde-1rahtcjnfk1fn-2080359527.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "stack.135f87ef.rot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["135f87ef"]
+    },
+    {
+      name = "stack.6c57c14e.rot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["6c57c14e"]
+    },
+    {
+      name = "stack.955f2252.rot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["955f2252"]
+    },
+    {
+      name = "stack.97484c08.rot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["97484c08"]
+    },
+    {
+      name = "stack.active.rot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["97484c08"]
+    },
+    {
+      name = "stack.b0e6c9da.rot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["b0e6c9da"]
+    },
+    {
+      name = "stack.f52dbd37.rot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["f52dbd37"]
+    },
+    {
+      name = "stack.f7d8c1ea.rot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["f7d8c1ea"]
+    },
+    {
+      name = "stack.f9185e99.rot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["f9185e99"]
+    },
+    {
+      name = "rot-frontend-dev.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["52.18.154.179"]
+    },
+    {
+      name = "deployarn.97484c08.dev.rot.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/rot-dev-97484c08-CrossAccountRole-16XCK3R72HVOU"]
+    },
+    {
+      name = "deployarn.active.dev.rot.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/rot-dev-97484c08-CrossAccountRole-16XCK3R72HVOU"]
+    },
+    {
+      name = "rsr.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z1BKCTXD74EZPE"
+        name                   = "s3-website-eu-west-1.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "elasticsearch.scratch-lpa.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["monitoring.scratch-lpa.dsd.io."]
+    },
+    {
+      name = "kibana.scratch-lpa.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["monitoring.scratch-lpa.dsd.io."]
+    },
+    {
+      name = "monitoring.scratch-lpa.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.10.45"]
+    },
+    {
+      name = "sentry.scratch-lpa.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["monitoring.scratch-lpa.dsd.io"]
+    },
+    {
+      name = "scs-performance.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["scs-performance.herokuapp.com"]
+    },
+    {
+      name = "scs.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-615.awsdns-12.net", "ns-368.awsdns-46.com", "ns-1527.awsdns-62.org", "ns-1731.awsdns-24.co.uk"]
+    },
+    {
+      name = "search-noms-api.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-52-212-199-217.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "stack.active.senrty-staging.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["cdde1be0"]
+    },
+    {
+      name = "stack.active.sentry-prod.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["d816934f"]
+    },
+    {
+      name = "stack.new2.sentry-prod.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["d816934f"]
+    },
+    {
+      name = "stack.active.sentry-prod1.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["7f97d29b"]
+    },
+    {
+      name = "stack.active.sentry-prodpara.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["2f97e85c"]
+    },
+    {
+      name = "stack.active.sentry-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["cdde1be0"]
+    },
+    {
+      name = "stack.ltsampros2.sentry-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["cdde1be0"]
+    },
+    {
+      name = "stack.ltsampros3.sentry-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["dd30b374"]
+    },
+    {
+      name = "sentry.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["mon.dsd.io"]
+    },
+    {
+      name = "deployarn.active.prod.sentry.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/sentry-prod-d816934f-CrossAccountRole-2DQZ07X260TX"]
+    },
+    {
+      name = "deployarn.new2.prod.sentry.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/sentry-prod-d816934f-CrossAccountRole-2DQZ07X260TX"]
+    },
+    {
+      name = "deployarn.active.prod1.sentry.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/sentry-prod1-7f97d29b-CrossAccountRole-T9EHJS1H4TWL"]
+    },
+    {
+      name = "deployarn.active.prodpara.sentry.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/sentry-prodpara-2f97e85c-CrossAccountRole-NDY5CG3HA6KW"]
+    },
+    {
+      name = "deployarn.active.staging.sentry.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/sentry-staging-cdde1be0-CrossAccountRole-PCXIJ6K6VSFY"]
+    },
+    {
+      name = "deployarn.ltsampros2.staging.sentry.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/sentry-staging-cdde1be0-CrossAccountRole-PCXIJ6K6VSFY"]
+    },
+    {
+      name = "devregistry.service-33c0d65b.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "docker-re-elbdevre-l0e7axwzrfd-487189305.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "registry-dev.service-33c0d65b.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "docker-re-elbregis-l9jj4g5ckwvw-1248066928.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "registry-v2.service-768454e0.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "docker-re-elbregis-rxc9o137ny8k-544193084.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "registry.service-768454e0.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "docker-re-elbregis-upxzq21e2bf5-1676511926.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunal.service-f6885b5e.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-a991huwg3wgs-1185343906.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "service-mapper.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["moj-archipelago.herokuapp.com."]
+    },
+    {
+      name = "s1._domainkey.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["s1.domainkey.u2748441.wl192.sendgrid.net"]
+    },
+    {
+      name = "s2._domainkey.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["s2.domainkey.u2748441.wl192.sendgrid.net"]
+    },
+    {
+      name = "ci-hmcts.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "ci-hmcts-elbcihmc-1lftefg1dwwil-1739227107.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "_6b6253eac9e7549bb70b0e42830e95b9.ci-hmcts.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["_911134c8d386ffd7445e3b435f346286.ltfvzjuylp.acm-validations.aws."]
+    },
+    {
+      name = "ci-prod.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "ci-prod-2-elbcipro-1jjpvv5siesim-915507303.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "ci.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "dualstack.ci-prod-2-elbcipro-1jjpvv5siesim-915507303.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "cla-admin.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["83.151.212.52"]
+    },
+    {
+      name = "cla-backend.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.9.58"]
+    },
+    {
+      name = "cla-callmeback.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["83.151.212.51"]
+    },
+    {
+      name = "cla-cases.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.9.53"]
+    },
+    {
+      name = "cla-frontend.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.9.58"]
+    },
+    {
+      name = "cla-monitoring.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.9.58"]
+    },
+    {
+      name = "cla-public.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["83.151.212.50"]
+    },
+    {
+      name = "elasticsearch.cla.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.9.58"]
+    },
+    {
+      name = "kibana.cla.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.9.58"]
+    },
+    {
+      name = "sentry.cla.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.9.58"]
+    },
+    {
+      name = "dev-lpa.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.77.92.20"]
+    },
+    {
+      name = "devregistry.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "docker-re-elbdevre-l0e7axwzrfd-487189305.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "digideps.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.194.218.14"]
+    },
+    {
+      name = "email.digideps.service.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["v=spf1 include:sendgrid.net ~all"]
+    },
+    {
+      name = "smtpapi._domainkey.email.digideps.service.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB"]
+    },
+    {
+      name = "em.email.digideps.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["sendgrid.net"]
+    },
+    {
+      name = "smtpapi._domainkey.em.email.digideps.service.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB"]
+    },
+    {
+      name = "o1.em.email.digideps.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["198.21.4.244"]
+    },
+    {
+      name = "email.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["u2748441.wl192.sendgrid.net"]
+    },
+    {
+      name = "mapit.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["mapit-554887916.eu-west-1.elb.amazonaws.com"]
+    },
+    {
+      name = "membrane-sirius.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["sirius.service.dsd.io"]
+    },
+    {
+      name = "po.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "po-prod-553a-elbpo-2om62plim7cm-984555513.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "prodregistry.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z3NF1Z3NOM5OY2"
+        name                   = "docker-re-elbprodr-hbevs36h7zcv-1550709498.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "production-lpa.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.196"]
+    },
+    {
+      name = "registry-dev.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "docker-re-elbregis-l9jj4g5ckwvw-1248066928.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "registry-v2.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "docker-re-elbregis-rxc9o137ny8k-544193084.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "registry.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "docker-re-elbregis-upxzq21e2bf5-1676511926.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "scratch-lpa.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.10.45"]
+    },
+    {
+      name = "scratch-v1-lpa.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["83.151.219.74"]
+    },
+    {
+      name = "scs.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["scs-prod-rails-1856894970.eu-west-1.elb.amazonaws.com."]
+    },
+    {
+      name = "sentry-staging.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "sentry-st-elbsentr-1f3gedml5ov73-1658766537.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "sentry.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "dualstack.sentry-pr-elbsentr-1anldhpnj4rk8-1574613568.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "sirius.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["37.26.91.54"]
+    },
+    {
+      name = "staging-digideps.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.76.171.16"]
+    },
+    {
+      name = "staging-lpa.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.37"]
+    },
+    {
+      name = "www.staging-lpa.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.37"]
+    },
+    {
+      name = "staging-v1-lpa.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["83.151.213.226"]
+    },
+    {
+      name = "www.staging-v1-lpa.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["staging-v1-lpa.service.dsd.io."]
+    },
+    {
+      name = "status-staging.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "status-st-elbstatu-11nclt5x9b82a-690920659.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "status.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "dualstack.awseb-awseb-s4t6mlupj7np-31851715.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "_adda73ca742a1234e9f9d2c93f9882fd.status.service.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["_7a7432de6a3202bc3b084011c61d9a53.acm-validations.aws"]
+    },
+    {
+      name = "stunnel-redis-dev.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "elk-dev-9-elbstunn-12vcfmu9ommpz-2080647487.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "stunnel-redis-stg.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "elk-stagi-elbstunn-1kux5y9dx1apv-1629176595.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "stunnel-redis.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "elk-prod-elbstunn-7fng2mdj9m1f-813182817.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "vault-dev.service.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "vault-dev-elbvault-2n7xxzl638mh-723631155.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "web-ssh.service.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.77.250.158"]
+    },
+    {
+      name = "serviceassessments.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z1BKCTXD74EZPE"
+        name                   = "s3-website-eu-west-1.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "servicedeskblog.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["192.30.252.153", "192.30.252.154"]
+    },
+    {
+      name = "siaacd.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-52-31-70-66.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "stack.active.snd-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["d41dfc31"]
+    },
+    {
+      name = "sscsvp.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-52-31-70-66.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "stack.active.staff-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["26063002"]
+    },
+    {
+      name = "elasticsearch.stag-lpa.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.37"]
+    },
+    {
+      name = "kibana.stag-lpa.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.37"]
+    },
+    {
+      name = "elasticsearch.staging-backoffice.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z31RX3GZS94JZS"
+        name                   = "monitoring.staging-backoffice.dsd.io."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "kibana.staging-backoffice.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z31RX3GZS94JZS"
+        name                   = "monitoring.staging-backoffice.dsd.io."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "monitoring.staging-backoffice.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["37.26.91.54"]
+    },
+    {
+      name = "staging-et.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "dualstack.atet-stag-elbstagi-1rsc8jaqj2xer-572896377.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "elasticsearch.staging-lpa.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["monitoring.staging-lpa.dsd.io"]
+    },
+    {
+      name = "kibana.staging-lpa.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["monitoring.staging-lpa.dsd.io"]
+    },
+    {
+      name = "monitoring.staging-lpa.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.37"]
+    },
+    {
+      name = "sentry.staging-lpa.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["monitoring.staging-lpa.dsd.io"]
+    },
+    {
+      name = "www.staging-lpa.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["185.40.8.37"]
+    },
+    {
+      name = "staging-product-tracker.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "dualstack.moj-produ-elbstagi-f27cyb85pklx-250525843.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "email.staging.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["sendgrid.net"]
+    },
+    {
+      name = "smtpapi._domainkey.email.staging.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPtW5iwpXVPiH5FzJ7Nrl8USzuY9zqqzjE0D1r04xDN6qwziDnmgcFNNfMewVKN2D1O+2J9N14hRprzByFwfQW76yojh54Xu3uSbQ3JP0A7k8o8GutRF8zbFUA8n0ZH2y0cIEjMliXY4W4LwPA7m4q0ObmvSjhd63O9d8z1XkUBwIDAQAB"]
+    },
+    {
+      name = "staging43.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-78-102.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "staging44.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-111-61.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "staging47.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-156-23.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "static.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z1BKCTXD74EZPE"
+        name                   = "s3-website-eu-west-1.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "deployarn.active.dev.status.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/status-dev-5e7648d9-CrossAccountRole-16ZHLNT1IYNZ8"]
+    },
+    {
+      name = "deployarn.active.prod.status.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/status-prod-ca4070c2-CrossAccountRole-165ECTPBSFUHG"]
+    },
+    {
+      name = "deployarn.ca4070c2.prod.status.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/status-prod-ca4070c2-CrossAccountRole-165ECTPBSFUHG"]
+    },
+    {
+      name = "tactical-products.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-1982.awsdns-55.co.uk.", "ns-832.awsdns-40.net.", "ns-1081.awsdns-07.org.", "ns-221.awsdns-27.com."]
+    },
+    {
+      name = "tacticalproducts.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-1470.awsdns-55.org.", "ns-1965.awsdns-53.co.uk.", "ns-974.awsdns-57.net.", "ns-106.awsdns-13.com."]
+    },
+    {
+      name = "tacticalproductsalb.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-826.awsdns-39.net.", "ns-1122.awsdns-12.org.", "ns-448.awsdns-56.com.", "ns-1811.awsdns-34.co.uk."]
+    },
+    {
+      name = "tacticalproductshmcts.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-1635.awsdns-12.co.uk.", "ns-975.awsdns-57.net.", "ns-258.awsdns-32.com.", "ns-1497.awsdns-59.org."]
+    },
+    {
+      name = "tax-tribunals-datacapture-dev-0931d739.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-1iu6bsfiyp2v7-62698893.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-datacapture-dev.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-1iu6bsfiyp2v7-62698893.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "_asvdns-0ec077bf-94ae-4ccd-9abc-86305dbaac6f.tax-tribunals-datacapture-dev.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["asvdns_f98c84db-b876-4c72-863d-cb1aec969f20"]
+    },
+    {
+      name = "tax-tribunals-datacapture-dev2.dsd.io."
+      type = "CNAME"
+      ttl  = 60
+      records = ["tax-tribunals-datacapture-dev.dsd.io"]
+    },
+    {
+      name = "tax-tribunals-datacapture-staging-1049b7df.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-1wb6wn9xfexo8-1534905936.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-datacapture-staging.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "dualstack.tax-tribu-elbtaxtr-1wb6wn9xfexo8-1534905936.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "_asvdns-acf85d3d-46ce-4b0e-bf02-c9d404a2b7c4.tax-tribunals-datacapture-staging.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["asvdns_7a97c4a5-089d-415d-955e-71b3e13fdc2a"]
+    },
+    {
+      name = "_bfa871d9ae35776361503dc9a3a10db1.tax-tribunals-datacapture-staging.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["_c97c367e852ca6a18aa1f2119d71c3b9.tljzshvwok.acm-validations.aws."]
+    },
+    {
+      name = "backup.tax-tribunals-datacapture-staging.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-1wb6wn9xfexo8-1534905936.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-downloader-dev-563646a3.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-1wgslhpbyu3yw-1470911889.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-downloader-dev.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-1wgslhpbyu3yw-1470911889.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "_109272a5626b87442929a35439e041e8.tax-tribunals-downloader-dev.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["_7bc0baa60d71eb4f79203145484d7a83.ltfvzjuylp.acm-validations.aws."]
+    },
+    {
+      name = "_asvdns-93f5e9c6-fe9e-433d-baab-496fe6199dc2.tax-tribunals-downloader-dev.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["asvdns_a440567a-1d51-4ede-8097-6f179378ff80"]
+    },
+    {
+      name = "stack.active.tax-tribunals-downloader-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["0690ca98"]
+    },
+    {
+      name = "tax-tribunals-downloader-staging-68ade87f.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-flukwjdtpqna-104748645.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-downloader-staging.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-flukwjdtpqna-104748645.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "deployarn.active.dev.tax-tribunals-downloader.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-downloader-dev-0690-CrossAccountRole-1T5WLVE32WS50"]
+    },
+    {
+      name = "tax-tribunals-fees-dev-0931d739.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-h7kiu9v96wom-1335287201.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-fees-dev.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-h7kiu9v96wom-1335287201.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "_asvdns-ac34ee22-06a5-4473-aa5e-851fef56119e.tax-tribunals-fees-dev.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["asvdns_d975c87d-6209-4097-b070-3240b0220dbc"]
+    },
+    {
+      name = "stack.active.tax-tribunals-fees-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["0931d739"]
+    },
+    {
+      name = "stack.newdev3.tax-tribunals-fees-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["0931d739"]
+    },
+    {
+      name = "stack.test_cfn_update.tax-tribunals-fees-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["fa049ac1"]
+    },
+    {
+      name = "stack.active.tax-tribunals-fees-prod.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["f6885b5e"]
+    },
+    {
+      name = "stack.prod1.tax-tribunals-fees-prod.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["f6885b5e"]
+    },
+    {
+      name = "stack.1049b7df.tax-tribunals-fees-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["1049b7df"]
+    },
+    {
+      name = "_29faedc51b99a21e6b546e9f0ae8f53a.tax-tribunals-fees-staging.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["_e2ebb11a735d6cabe65ab6dc0789debb.tljzshvwok.acm-validations.aws."]
+    },
+    {
+      name = "_asvdns-a9deae9e-bead-410e-be50-809a7ad182c6.tax-tribunals-fees-staging.dsd.io."
+      type = "TXT"
+      ttl  = 300
+      records = ["asvdns_ca8dcb48-f00b-4524-97b8-30bbc271a484"]
+    },
+    {
+      name = "stack.active.tax-tribunals-fees-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["1049b7df"]
+    },
+    {
+      name = "deployarn.active.dev.tax-tribunals-fees.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-0931d739-CrossAccountRole-16J2JQTXX5BIY"]
+    },
+    {
+      name = "deployarn.newdev3.dev.tax-tribunals-fees.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-0931d739-CrossAccountRole-16J2JQTXX5BIY"]
+    },
+    {
+      name = "deployarn.twocontainers.dev.tax-tribunals-fees.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-fees-dev-3fc8a252-CrossAccountRole-19VQZQDIYLZNJ"]
+    },
+    {
+      name = "deployarn.active.prod.tax-tribunals-fees.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-fees-prod-f6885b5e-CrossAccountRole-1W4UOGX1A6CPX"]
+    },
+    {
+      name = "deployarn.prod1.prod.tax-tribunals-fees.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-fees-prod-f6885b5e-CrossAccountRole-1W4UOGX1A6CPX"]
+    },
+    {
+      name = "deployarn.1049b7df.staging.tax-tribunals-fees.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-fees-staging-1049b7-CrossAccountRole-GRHP7C52QR5B"]
+    },
+    {
+      name = "deployarn.active.staging.tax-tribunals-fees.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-fees-staging-1049b7-CrossAccountRole-GRHP7C52QR5B"]
+    },
+    {
+      name = "stack.prod10.tax-tribunals-feespayment-prod.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["2e0665b9"]
+    },
+    {
+      name = "tax-tribunals-internal-uploader-dev-563646a3.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "internal-tax-tribu-elbtaxtr-b3mvbezjssw0-438978380.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-internal-uploader-dev.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "internal-tax-tribu-elbtaxtr-b3mvbezjssw0-438978380.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-internal-uploader-staging-68ade87f.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "internal-tax-tribu-elbtaxtr-1ifg4wpv0cd6l-1533491537.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-internal-uploader-staging.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z31RX3GZS94JZS"
+        name                   = "tax-tribunals-internal-uploader-staging-68ade87f.dsd.io."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "tax-tribunals-uploader-dev.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-1phg4u5zl91bh-591850276.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "stack.563646a3.tax-tribunals-uploader-downloader-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["563646a3"]
+    },
+    {
+      name = "stack.active.tax-tribunals-uploader-downloader-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["563646a3"]
+    },
+    {
+      name = "stack.dev.tax-tribunals-uploader-downloader-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["0f6e2ce8"]
+    },
+    {
+      name = "stack.newdev3.tax-tribunals-uploader-downloader-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["49e518fe"]
+    },
+    {
+      name = "stack.68ade87f.tax-tribunals-uploader-downloader-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["68ade87f"]
+    },
+    {
+      name = "stack.active.tax-tribunals-uploader-downloader-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["68ade87f"]
+    },
+    {
+      name = "stack.staging2.tax-tribunals-uploader-downloader-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["68989a9a"]
+    },
+    {
+      name = "deployarn.563646a3.dev.tax-tribunals-uploader-downloader.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-115NC9VHVEKIN"]
+    },
+    {
+      name = "deployarn.active.dev.tax-tribunals-uploader-downloader.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-115NC9VHVEKIN"]
+    },
+    {
+      name = "deployarn.dev.dev.tax-tribunals-uploader-downloader.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-71DT5GRG6VM0"]
+    },
+    {
+      name = "deployarn.test2.dev.tax-tribunals-uploader-downloader.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-U53ZPYJ237QC"]
+    },
+    {
+      name = "deployarn.68ade87f.staging.tax-tribunals-uploader-downloader.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-NA8CPBYWBYJZ"]
+    },
+    {
+      name = "deployarn.active.staging.tax-tribunals-uploader-downloader.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-NA8CPBYWBYJZ"]
+    },
+    {
+      name = "deployarn.staging2.staging.tax-tribunals-uploader-downloader.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-uploader-downloader-CrossAccountRole-1VXPGAW8XQRUE"]
+    },
+    {
+      name = "tax-tribunals-uploader-staging.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z32O12XQLNTSW2"
+        name                   = "tax-tribu-elbtaxtr-8b5enk4npxdw-2132578496.eu-west-1.elb.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "stack.35383dcc.tax-tribunals-wsproxy-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["35383dcc"]
+    },
+    {
+      name = "stack.active.tax-tribunals-wsproxy-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["35383dcc"]
+    },
+    {
+      name = "stack.af6eae4a.tax-tribunals-wsproxy-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["af6eae4a"]
+    },
+    {
+      name = "deployarn.active.staging.tax-tribunals-wsproxy.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tax-tribunals-wsproxy-staging-353-CrossAccountRole-6IIPSV8BG369"]
+    },
+    {
+      name = "taxtribsecs.dsd.io."
+      type = "CNAME"
+      ttl  = 60
+      records = ["ecs-taxtribs-1587962178.eu-west-1.elb.amazonaws.com"]
+    },
+    {
+      name = "taxtribunals.dsd.io."
+      type = "NS"
+      ttl  = 86400
+      records = ["ns-1924.awsdns-48.co.uk.", "ns-984.awsdns-59.net.", "ns-280.awsdns-35.com.", "ns-1245.awsdns-27.org."]
+    },
+    {
+      name = "stack.active.template-deploy-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["f7a81cb0"]
+    },
+    {
+      name = "stack.active.test-anchor-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["e8c7ec60"]
+    },
+    {
+      name = "deployarn.active.dev.test-anchor.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/test-anchor-dev-e8c7ec60-CrossAccountRole-184ZW28M6RING"]
+    },
+    {
+      name = "stack.active.test-anchors-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["871fdc9c"]
+    },
+    {
+      name = "stack.active.test-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["561ccbad"]
+    },
+    {
+      name = "stack.active.test-reboot-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["2b0f12f3"]
+    },
+    {
+      name = "stack.active.test-seq-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["92392eac"]
+    },
+    {
+      name = "deployarn.active.dev.test-seq.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/test-seq-dev-92392eac-CrossAccountRole-1NZ6YTSK4RVT6"]
+    },
+    {
+      name = "deployarn.active.dev.test.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/test-dev-aa1f94c8-CrossAccountRole-1661CLJFSHL22"]
+    },
+    {
+      name = "tipstaff-training.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["52.49.163.38"]
+    },
+    {
+      name = "tp.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-902.awsdns-48.net.", "ns-1290.awsdns-33.org.", "ns-1882.awsdns-43.co.uk.", "ns-275.awsdns-34.com."]
+    },
+    {
+      name = "transport.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["52.208.251.221"]
+    },
+    {
+      name = "dev.transportappeals.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["sdshmcts-dev.azurefd.net"]
+    },
+    {
+      name = "afdverify.dev.transportappeals.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["afdverify.sdshmcts-dev.azurefd.net"]
+    },
+    {
+      name = "staging.transportappeals.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["sdshmcts-stg.azurefd.net"]
+    },
+    {
+      name = "afdverify.staging.transportappeals.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["afdverify.sdshmcts-stg.azurefd.net"]
+    },
+    {
+      name = "_amazonses.tribunals.dsd.io."
+      type = "TXT"
+      ttl  = 1800
+      records = ["FotC+RkVmtjm3NvO4OIR5gsq8wlGxX1X7LdoJ1RITII="]
+    },
+    {
+      name = "tribunals2.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-52-31-70-66.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "stack.active.tsung-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["28cb76ef"]
+    },
+    {
+      name = "deployarn.active.dev.tsung.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/tsung-dev-28cb76ef-CrossAccountRole-MQGP3XI35FCF"]
+    },
+    {
+      name = "ucchome.dsd.io."
+      type = "A"
+      alias = {
+        zone_id                = "Z3AQBSTGFYJSTF"
+        name                   = "s3-website-us-east-1.amazonaws.com."
+        evaluate_target_health = false
+      }
+    },
+    {
+      name = "utiacdailycourtlist.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-52-31-70-66.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "stack.0a0e49a5.vault-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["0a0e49a5"]
+    },
+    {
+      name = "stack.active.vault-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["cacd90f1"]
+    },
+    {
+      name = "stack.omg1.vault-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["cacd90f1"]
+    },
+    {
+      name = "deployarn.active.dev.vault.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["False"]
+    },
+    {
+      name = "deployarn.omg1.dev.vault.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/vault-dev-cacd90f1-CrossAccountRole-OMJN8J9MSSO1"]
+    },
+    {
+      name = "victim_services.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-11-96.eu-west-1.compute.amazonaws.com."]
+    },
+    {
+      name = "stack.active.vis-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["f3b14a61"]
+    },
+    {
+      name = "stack.3e929528.vis-prod.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["3e929528"]
+    },
+    {
+      name = "stack.active.vis-prod.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["92ac1d7b"]
+    },
+    {
+      name = "stack.active.vis-staging.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["6baf3383"]
+    },
+    {
+      name = "deployarn.active.dev.vis.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/vis-dev-f3b14a61-CrossAccountRole-1NKTWEPROFTJM"]
+    },
+    {
+      name = "deployarn.active.prod.vis.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/vis-prod-92ac1d7b-CrossAccountRole-1QNJEEF7FTQ6N"]
+    },
+    {
+      name = "deployarn.active.staging.vis.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/vis-staging-6baf3383-CrossAccountRole-1RUFDC5RU4YJ"]
+    },
+    {
+      name = "vpn.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.77.178.131"]
+    },
+    {
+      name = "wardship.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["52.19.133.172"]
+    },
+    {
+      name = "webhelpdesk.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["52.19.187.43"]
+    },
+    {
+      name = "wiki.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.229.73.119"]
+    },
+    {
+      name = "wordpress_salt_test.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-11-96.eu-west-1.compute.amazonaws.com."]
+    },
+    {
+      name = "wp.dsd.io."
+      type = "NS"
+      ttl  = 300
+      records = ["ns-1486.awsdns-57.org.", "ns-787.awsdns-34.net.", "ns-194.awsdns-24.com.", "ns-1882.awsdns-43.co.uk."]
+    },
+    {
+      name = "x.dsd.io."
+      type = "A"
+      ttl  = 60
+      records = ["54.229.49.135"]
+    },
+    {
+      name = "ybtj.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-11-96.eu-west-1.compute.amazonaws.com."]
+    },
+    {
+      name = "yjbpublications.dsd.io."
+      type = "A"
+      ttl  = 300
+      records = ["54.194.101.35"]
+    },
+    {
+      name = "yjils.dsd.io."
+      type = "CNAME"
+      ttl  = 300
+      records = ["ec2-54-194-101-35.eu-west-1.compute.amazonaws.com"]
+    },
+    {
+      name = "stack.active.zero-dev.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["5eb371e5"]
+    },
+    {
+      name = "deployarn.active.dev.zero.dsd.io."
+      type = "TXT"
+      ttl  = 60
+      records = ["arn:aws:iam::880656497252:role/zero-dev-5eb371e5-CrossAccountRole-1ZGFKHJ28WLH"]
     }
   ]
 }
