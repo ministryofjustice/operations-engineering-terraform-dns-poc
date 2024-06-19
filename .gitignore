@@ -8,3 +8,7 @@ env/
 *.code-workspace
 *.sha256
 terraform.tfstate
+.terraform.lock.hcl
+old_records.json
+new_records.json
+generated_configurations.json
